@@ -1,0 +1,125 @@
+html {height: 98%;}
+body {height:98%;}
+.container {
+    width:800px;
+    height:98%;
+    margin: 0px auto;
+    padding-top:0px;
+    padding-left:15px;
+    padding-right:15px;
+    -webkit-box-shadow: 4px 4px 10px black;
+    -moz-box-shadow: 4px 4px 10px black;
+    box-shadow: 4px 4px 10px black);
+
+}
+
+header{
+    text-align:center;
+}
+
+h1 {
+    background:url("../img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    coller: rgba (255, 255, 255, 0.8);
+    font-family: serif;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+nav> ul {
+    border-top: double 3px red;
+    text-align: center;
+}
+nav> ul> li{
+    float:left;
+    padding:0px 30px;
+    list-style-type: none;
+    border-bottom: solid 1px red;
+}
+
+nav ul  li a {
+    font-size:20pt;
+    font-weight: bold;
+    color :blue;
+    text-decoration: none;
+    text-shadow: 0 1px 1px red;
+    -webkit-border-radius: radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transform:all 1.0s ease-in-out;
+    -o-transition:all 1.0s ease-in-out;
+}
+
+nav> ul> li> a {
+    font-size:20pt;
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+    text-shadow: 0 8px 8px green;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+
+header > nav  > ul > li  > a{
+
+}
+
+footer > nav >
+
+
+nav ul li a:hover,
+nav ul li a:focus
+{
+    color: black;
+    background: red;
+}
+
+article{
+    display: inline-block;
+    color: orangered;
+}
+
+h2{
+    display: inline-block;
+    color: blueviolet;
+}
+
+p{
+    color: blue;
+}
+
+footer{
+    color: lawngreen;
+    width: 500px;
+    height: 100px;
+}
+
+h3{
+    display: inline-block;
+    color: orange;
+}
+
+
+aside {
+    background-color: lightseagreen;
+    width: 400px;
+    height: 917px;
+    position: relative;
+    left: 820px;
+    bottom: 378px;
+}
+
+aside > video{
+    width: 320px;
+    height: 350px;
+    position: relative;
+    left: 50px;
+}
